@@ -1,0 +1,14 @@
+---
+parameters:
+- name: kubernetes.flavor
+  value: eks
+- name: kubernetes.eks.cluster
+  kind: user
+  fromEnv: EKS_CLUSTER
+- name: kubernetes.api
+  parameters:
+  - name: endpoint
+    kind: user
+    fromEnv: EKS_K8S_API
+  - name: caCert
+    fromEnv: KUBERNETES_API_CA_CERT
