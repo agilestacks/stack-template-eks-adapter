@@ -48,7 +48,6 @@ outputs:
 - name: k8s-eks:kubernetes.eks.cluster
 - name: k8s-eks:cloud.region
 - name: k8s-eks:cloud.availabilityZone
-- name: k8s-eks:cloud.bucket
 - name: k8s-eks:cloud.vpc.id
 - name: k8s-eks:cloud.vpc.cidr
 - name: k8s-eks:cloud.vpc.worker.subnet.id
