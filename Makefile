@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := deploy
 
-export NAME          ?= eks-adapter
-export BASE_DOMAIN   ?= kubernetes.delivery
+export NAME          ?= eks-adapter-1
+export BASE_DOMAIN   ?= cloud-account-name.superhub.io
 
 ADAPTER_DOMAIN_NAME := $(NAME).$(BASE_DOMAIN)
 
