@@ -45,6 +45,8 @@ lifecycle:
   - dex
   - kube-dashboard
   - automation-tasks-namespace
+  optional:
+  - kube-dashboard
   requires:
     optional:
     - component.acm.enabled:acm
