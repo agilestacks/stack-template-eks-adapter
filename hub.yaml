@@ -24,6 +24,9 @@ components:
 - name: traefik
   source:
     dir: components/traefik2
+- name: tls-host-controller
+  source:
+    dir: components/tls-host-controller
 - name: dex
   source:
     dir: components/dex
@@ -46,6 +49,7 @@ lifecycle:
   - acm
   - cert-manager
   - traefik
+  - tls-host-controller
   - dex
   - kube-dashboard
   - automation-tasks-namespace
