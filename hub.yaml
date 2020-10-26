@@ -2,7 +2,7 @@
 version: 1
 kind: stack
 meta:
-  name: k8s-eks-adapter:1
+  name: eks-adapter:1
   brief: EKS import adapter stack
 
 components:
